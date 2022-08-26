@@ -7,11 +7,11 @@ A component based interpolation system for Unity.
 ## Features:
 
 ### Component Based Workflow:
-* High performance managed updates with Tween Manager
+* High-performance managed updates with Tween Manager
 * Stack tween components
 * AnimationCurve support
 * Tween rigidbodies
-* Wrap modes: Ping-Pong, Looping and more!
+* Wrap modes: Ping-Pong, Looping, and more!
 * Camera culling
 
 ### Tween Transform Values:
