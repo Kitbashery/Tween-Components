@@ -22,3 +22,6 @@ A component based interpolation system for Unity.
 ### Other Tweens:
 * Billboard
 * Material
+
+# 
+The name Kitbashery & all associated images Copyright &copy; 2022 Kitbashery. All Rights Reserved.
