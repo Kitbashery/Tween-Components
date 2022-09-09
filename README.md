@@ -34,5 +34,14 @@ A component based interpolation system for Unity.
 * Billboard
 * Material
 
+# Getting Started:
+All components can be found under Kitbashery in the component menu:
+![](https://kitbashery.com/assets/images/kitbashery-getting-started.jpg)
+
+Online documentation & scripting API is found at:
+
+https://kitbashery.com/docs/game-kit
+
+
 # 
 The name Kitbashery & all associated images Copyright &copy; 2022 Kitbashery. All Rights Reserved.
