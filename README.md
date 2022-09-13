@@ -40,7 +40,7 @@ All components can be found under Kitbashery in the component menu:
 
 Online documentation & scripting API is found at:
 
-https://kitbashery.com/docs/game-kit
+https://kitbashery.com/docs/tween-components
 
 
 ---- 
