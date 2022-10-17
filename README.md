@@ -9,7 +9,6 @@
 [![OpenUPM](https://img.shields.io/badge/Install-openUPM-blue)](https://openupm.com/packages/com.kitbashery.tween-components.html)
 [![DevKit](https://img.shields.io/badge/Dev%20Kit-.unitypackage-blue)](https://github.com/Kitbashery/Tween-Components/releases/download/Development-Package/Kitbashery_TweenComponents.unitypackage)
 [![AssetStore](https://img.shields.io/badge/Download%20LTS-Unity%20Asset%20Store-blue)](https://assetstore.unity.com/packages/slug/231241)
-[![Support Development](https://img.shields.io/badge/Ko--fi-Support%20Development-%23ff5f5f)](https://ko-fi.com/S6S8EKDY5)
 
 # Tween Components
 
