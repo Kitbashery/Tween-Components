@@ -5,7 +5,7 @@
 ![](https://kitbashery.com/assets/images/kitbashery-github-banner.jpg)
 
 [![Unity Version](https://img.shields.io/badge/Unity-2021.3%2B-blue.svg)](https://unity3d.com/get-unity/download)
-[![GitHub](https://img.shields.io/github/license/kitbashery/modular-ai.svg)](https://github.com/Kitbashery/Tween-Components/blob/main/LICENSE.md)
+[![GitHub](https://img.shields.io/github/license/kitbashery/modular-ai.svg)](https://github.com/Kitbashery/Tween-Components/blob/main/.github/LICENSE.md)
 [![OpenUPM](https://img.shields.io/badge/Install-openUPM-blue)](https://openupm.com/packages/com.kitbashery.tween-components.html)
 [![DevKit](https://img.shields.io/badge/Dev%20Kit-.unitypackage-blue)](https://github.com/Kitbashery/Tween-Components/releases/download/Development-Package/Kitbashery_TweenComponents.unitypackage)
 [![Documentation](https://img.shields.io/badge/Docs-Kitbashery.com-%23ffaf0c)](https://kitbashery.com/docs/tween-components)
