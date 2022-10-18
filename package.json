@@ -7,7 +7,7 @@
   "unityRelease": "0f1",
   "documentationUrl": "https://kitbashery.com/docs/tween-components",
   "changelogUrl": "https://github.com/Kitbashery/Tween-Components/releases",
-  "licensesUrl": "https://github.com/Kitbashery/Tween-Components/blob/main/LICENSE",
+  "licensesUrl": "https://github.com/Kitbashery/Tween-Components/blob/main/.github/LICENSE",
   "keywords": [
     "Tween",
     "Interpolation",
