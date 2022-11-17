@@ -1,6 +1,6 @@
 {
   "name": "com.kitbashery.tween-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Tween Components",
   "description": "A component based interpolation system.",
   "unity": "2021.3",
