@@ -70,13 +70,9 @@ namespace Kitbashery.Tween
             UpdateGizmoPosition();
         }
 
-        private void Awake()
-        {
-            myTransform = transform;
-        }
-
         private void Start()
         {
+            myTransform = transform;
             initialPos = myTransform.position;
             initialTarget = target;
             nextPos = initialPos;
