@@ -72,6 +72,17 @@ namespace Kitbashery.Tween
         [Header("Called each time a tween reaches its current target.")]
         public UnityEvent onTweenComplete;
 
+        /// <summary>
+        /// Should this tween pause when lerpTime reaches pauseTime?
+        /// </summary>
+        [HideInInspector]
+        public bool pauseAtTime = false;
+        /// <summary>
+        /// The time the next pause will occur.
+        /// </summary>
+        [HideInInspector]
+        public float pauseTime = 0;
+
         #endregion
 
         #region Initialization & Updates:
@@ -122,6 +133,13 @@ namespace Kitbashery.Tween
             }
         }
 
+        private IEnumerator Delay(float time)
+        {
+            tweening = false;
+            yield return new WaitForSeconds(time);
+            tweening = true;
+        }
+
         #endregion]
 
         #region Methods:
@@ -137,11 +155,15 @@ namespace Kitbashery.Tween
             StartCoroutine(Delay(time));
         }
 
-        private IEnumerator Delay(float time)
+
+        /// <summary>
+        /// Pauses the tween at the specified time in its curve.
+        /// </summary>
+        /// <param name="time">The time in the animation curve to stop the tween.</param>
+        public void PauseTweenAtTime(float time)
         {
-            tweening = false;
-            yield return new WaitForSeconds(time);
-            tweening = true;
+            pauseAtTime = true;
+            pauseTime = time;
         }
 
         /// <summary>
