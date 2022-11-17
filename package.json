@@ -1,13 +1,13 @@
 {
   "name": "com.kitbashery.tween-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Tween Components",
   "description": "A component based interpolation system.",
   "unity": "2021.3",
   "unityRelease": "0f1",
   "documentationUrl": "https://kitbashery.com/docs/tween-components",
-  "changelogUrl": "https://github.com/Kitbashery/Tween-Components/releases",
-  "licensesUrl": "https://github.com/Kitbashery/Tween-Components/blob/main/.github/LICENSE",
+  "changelogUrl": "https://github.com/Kitbashery/Tween-Components/commits/main",
+  "licensesUrl": "https://github.com/Kitbashery/Tween-Components/blob/main/LICENSE.md",
   "keywords": [
     "Tween",
     "Interpolation",
