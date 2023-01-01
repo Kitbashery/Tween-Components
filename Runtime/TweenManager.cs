@@ -71,7 +71,15 @@ namespace Kitbashery.Tween
                 {
                     if (tweens[i].tweening == true && tweens[i].useFixedUpdate == false)
                     {
-                        Move(tweens[i]);
+                        if(tweens[i].pauseAtTime == true && tweens[i].pauseTime >= tweens[i].lerpTime)
+                        {
+                            tweens[i].tweening = false;
+                            tweens[i].pauseAtTime = false;
+                        }
+                        else
+                        {
+                            Move(tweens[i]);
+                        }
                     }
                 }
             }
@@ -85,7 +93,15 @@ namespace Kitbashery.Tween
                 {
                     if (tweens[i].tweening == true && tweens[i].useFixedUpdate == true)
                     {
-                        Move(tweens[i]);
+                        if (tweens[i].pauseAtTime == true && tweens[i].pauseTime >= tweens[i].lerpTime)
+                        {
+                            tweens[i].tweening = false;
+                            tweens[i].pauseAtTime = false;
+                        }
+                        else
+                        {
+                            Move(tweens[i]);
+                        }
                     }
                 }
             }
