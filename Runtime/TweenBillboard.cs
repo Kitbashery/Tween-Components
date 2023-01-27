@@ -95,6 +95,7 @@ namespace Kitbashery.Tween
                     onTweenUpdate.Invoke();
                     transform.LookAt(lookAtPos);
                     currentPosition = transform.position;
+                    currentRotation = transform.rotation;
                     onTweenComplete.Invoke();
                 }
             }
