@@ -47,4 +47,4 @@ https://kitbashery.com/docs/tween-components
 
 
 ---- 
-The name Kitbashery & all associated images Copyright &copy; 2022 Kitbashery. All Rights Reserved.
+The name Kitbashery & all associated images Copyright &copy; 2023 Kitbashery. All Rights Reserved.
